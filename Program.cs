@@ -4,8 +4,7 @@ using projectef.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// builder.Services.AddDbContext<TareasContext>(p => p.UseInMemoryDatabase("TareasDbMemory"));
-builder.Services.AddSqlServer<TareasContext>("Data Source=softiRedsLaptop;Initial Catalog=EfDb;user id=sa;password=isabella12;TrustServerCertificate=True");
+builder.Services.AddSqlServer<TareasContext>(builder.Configuration.GetConnectionString("LocalConnection"));
 
 var app = builder.Build();
 
@@ -15,7 +14,7 @@ app.MapGet("/dbconexion", async ([FromServices] TareasContext dbContext) =>
 {
     dbContext.Database.EnsureCreated();
 
-    return Results.Ok("Base de datos en memoria: " + dbContext.Database.IsInMemory());
+    return Results.Ok("Conexión con la base de datos establecida correctamente");
 });
 
 app.Run();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5a7DXalSrJ4m4TKDeKeMXluRLjdj/3uyRGMggtJNEBPM0a5F+V86quDlB0avJG2xkyFwzfcIcAYwlU/IWuxtQQ==",
+  "dgSpecHash": "MCqss5/Yf4fHoPCjaJR0wINRQZRTMqJyS/FXaUXjmEBpxoEC6Oa6uMMQ3eME9XUrlDMfkUuWLkjaKhSxwk8Aiw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\santi\\OneDrive\\Documentos\\SantiagoRojas\\Estudio\\Platzi\\Desarrollo\\Entity Framework Repaso\\projectef\\projectef.csproj",
+  "projectFilePath": "C:\\Users\\santi\\OneDrive\\Documentos\\SantiagoRojas\\Estudio\\Platzi\\Desarrollo\\Entity Framework Repaso\\projectef\\projectef.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
