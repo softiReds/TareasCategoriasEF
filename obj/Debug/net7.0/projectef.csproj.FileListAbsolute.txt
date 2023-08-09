@@ -64,3 +64,8 @@ C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entit
 C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\obj\Debug\net7.0\projectef.pdb
 C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\obj\Debug\net7.0\projectef.genruntimeconfig.cache
 C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\obj\Debug\net7.0\ref\projectef.dll
+C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\bin\Debug\net7.0\Humanizer.dll
+C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\santi\OneDrive\Documentos\SantiagoRojas\Estudio\Platzi\Desarrollo\Entity Framework Repaso\projectef\bin\Debug\net7.0\System.CodeDom.dll

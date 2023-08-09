@@ -19,7 +19,7 @@ public class TareasContext : DbContext
 
             categoria.Property(p => p.CategoriaNombre).IsRequired().HasMaxLength(150);
             categoria.Property(p => p.CategoriaDescripcion);
-
+            categoria.Property(p => p.CategoriaPeso);
         });
 
         builder.Entity<Tarea>(tarea =>

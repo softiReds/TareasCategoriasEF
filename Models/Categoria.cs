@@ -8,6 +8,7 @@ public class Categoria
 
     public string CategoriaNombre { get; set; }
     public string CategoriaDescripcion { get; set; }
+    public int CategoriaPeso { get; set; }
 
     public virtual ICollection<Tarea> Tareas { get; set; }
 }
