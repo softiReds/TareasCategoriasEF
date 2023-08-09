@@ -17,4 +17,14 @@ app.MapGet("/dbconexion", async ([FromServices] TareasContext dbContext) =>
     return Results.Ok("Conexión con la base de datos establecida correctamente");
 });
 
+app.MapGet("/api/tareas", async ([FromServices] TareasContext dbContext) =>
+{
+    return Results.Ok(dbContext.Tareas);
+});
+
+app.MapGet("/api/tareas/filtro", async ([FromServices] TareasContext dbContext) =>
+{
+    return Results.Ok(dbContext.Tareas.Where(p => p.PrioridadTarea == projectef.Models.Prioridad.Baja));
+});
+
 app.Run();
